@@ -1,0 +1,40 @@
+{
+  "name": "devgeist",
+  "description": "A Ghost theme for developers.",
+  "demo": "https://ghostdevgeisttheme.com",
+  "version": "0.0.1",
+  "engines": {
+    "ghost": ">=1.2.0"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  },
+  "author": {
+    "name": "Brett DeWoody",
+    "email": "brettdewoody@gmail.com",
+    "url": "https://brettdewoody.com"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": ["Minimal", "Developer", "Portfolio"]
+  },
+  "keywords": ["ghost", "theme"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brettdewoody/Devgeist.git"
+  },
+  "bugs": "https://github.com/brettdewoody/Devgeist/issues",
+  "contributors": "https://github.com/brettdewoody/Devgeist/graphs/contributors",
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "cssnano": "3.7.1",
+    "postcss-color-function": "2.0.1",
+    "postcss-custom-properties": "5.0.1",
+    "postcss-easy-import": "1.0.1"
+  },
+  "config": {
+    "posts_per_page": 25
+  }
+}
